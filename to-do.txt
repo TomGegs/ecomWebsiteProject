@@ -1,0 +1,28 @@
+product.jsx 
+    - "details" class needs to be an accordion
+    - wish list icon needs to be filled in
+    - main and secondary images not showing full length / aspect ratio / height 
+
+
+
+Cart.jsx 
+    - when clicking outside the cart window, close the cart window
+    -Navbar.jsx has close/setClose hook
+    - min width needed
+
+
+
+Card.scss
+    - sale price overwriting existing price.
+    - change  <h3>${item.oldPrice || item?.attributes.price + 20}</h3> so that the sale price doesnt show if its not needed
+    
+
+
+Products.jsx 
+    - remove 'filter by price' slider and add categories ($0-$25, etc)
+    -make sure all images are always the same height (max-height?)
+
+
+cartReducer.js 
+
+    - check co-pilot vs tutorial code for adding items to the cart 
